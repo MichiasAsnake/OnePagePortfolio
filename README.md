@@ -1,4 +1,4 @@
-# OnePagePortfolio
+# Michias Asnake Portfolio
 
 Welcome to my portfolio, here you will find links to my recent projects.
 
