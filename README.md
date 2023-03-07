@@ -1,6 +1,6 @@
 # Michias Asnake Portfolio
 
-Welcome to my portfolio, here you will find links to my recent projects and see some of the technologies i use.
+Welcome to my portfolio, here you will find links to my recent projects, see some of the technologies i use, and more.
 
 Created using React and Vite.
 
