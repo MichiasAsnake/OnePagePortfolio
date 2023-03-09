@@ -98,6 +98,16 @@ body {
   width: fit-content;
   margin: 10px auto;
   flex-direction: column;
+  
+}
+.abtsquare{
+  display: flex;
+}
+
+.abtflexa{
+  display: flex;
+  flex-direction: column;
+ 
 }
 
 .abtcont {
@@ -106,6 +116,9 @@ body {
   font-size: 10px;
   align-items: center;
   color: rgb(219, 219, 219);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
 }
 
 .abtcont span {
@@ -122,6 +135,7 @@ body {
   width: 200px;
   justify-content: center;
   text-align: center;
+ 
 }
 
 .abtwrd h2 {
@@ -134,7 +148,11 @@ body {
   font-weight: 600;
   line-height: 5px;
 }
-
+.abttype{
+  display: flex;
+  flex-direction: column;
+  
+}
 /* projects */
 
 .prjcont {
@@ -218,4 +236,98 @@ body {
   margin-left: 40px;
 
   font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+
+  
+  .navcont span{
+    font-size: 18px;
+    padding-top: 5px;
+  }
+
+ 
+  .prjbcont{flex-direction: column;}
+  .ldgbox{flex-direction: column;}
+
+  .ldgbox h1 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+  .ldgbox h2 {
+    font-weight: 300;
+    font-size: 15px;
+  }
+  
+  .ldgimg {
+    width: 160px;
+    margin-top: 10px;
+  }
+
+    
+  .abtimg {
+    width: 45px;
+    color: grey;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .abtflex {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin:20px;
+  }
+
+  .abtbox {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: fit-content;
+    flex-direction: row;
+  }
+  
+  .abtcont {
+    display: flex;
+   
+  }
+  
+  .abtflexa{
+    margin: -30px auto 50px auto;
+ 
+  }
+  
+  .abtwrd h1 {
+    font-size: 20px;
+   line-height: 16px;
+  }
+
+  .abtwrd h2 {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  .footer p{
+    margin-left: 80px;
+  }
+
+  .navcont {
+    
+    margin: 30px 50px 15px 50px;
+   
+  }
+
+  .navcont {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 10px 30px;
+    align-items: middle;
+  }
+
+  .abtsquare{
+    display: flex;
+    flex-direction: column;
+  }
+  
+
 }

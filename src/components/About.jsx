@@ -245,7 +245,7 @@ const About = () => {
         </h1>
         <span>Here are some of the tools and technologies I use</span>
       </div>
-      <div style={{ display: "flex" }}>
+      <div className="abtsquare">
         <div className="abtbox">
           <div className="abtflex">
             <div className="abtimg">
@@ -286,7 +286,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div style={{ display: "flex", flexDirection: "column" }}>
+        <div className="abtflexa">
           <div className="abtwrd">
             <h1>Languages</h1>
             <div style={{ display: "flex", justifyContent: "center" }}>
