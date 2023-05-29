@@ -54,10 +54,9 @@ body {
 }
 
 .ldgimg {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   margin-top: 10px;
-  
   background-image: url(public/images/IMG_9198.jpg);
   background-position: center;
   background-size: 200%;
@@ -326,8 +325,6 @@ body {
   
   .abtcont {
     display: flex;
-
-   
   }
   
   .abtflexa{
