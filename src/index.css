@@ -57,7 +57,7 @@ body {
   width: 180px;
   height: 180px;
   margin-top: 10px;
-  background-image: url(public/images/IMG_9198.JPG);
+  background-image: url(/images/IMG_9198.JPG);
   background-position: center;
   background-size: 200%;
   border-radius: 10px;
@@ -284,6 +284,7 @@ body {
   .ldgtext h2{
     width: 300px;
   }
+
  .ldgflex{
   display: grid;
   text-align: center;
