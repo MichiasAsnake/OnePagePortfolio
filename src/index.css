@@ -2,6 +2,7 @@ body {
   background-color: rgb(90, 90, 101);
   margin: 0;
   font-family: "Noto Sans", sans-serif;
+  
 }
 
 /* navigation */
@@ -25,8 +26,10 @@ body {
   flex-direction: column;
   width: fit-content;
   align-items: center;
-  margin: 0px auto 0 auto;
+  margin: 40px auto 0 auto;
   line-height: 20px;
+  padding-bottom: 10px;
+
 }
 
 .ldgbox button:hover {
@@ -52,13 +55,25 @@ body {
 
 .ldgimg {
   width: 200px;
+  height: 200px;
   margin-top: 10px;
+  
+  background-image: url(public/images/IMG_9198.jpg);
+  background-position: center;
+  background-size: 200%;
+  border-radius: 10px;
+  background-position-x: 45%;
+  background-position-y: 40%;
 }
 
+.ldgflex{
+  display: flex;
+  gap: 30px;
+}
 .ldgtext {
   padding-top: 20px;
   color: rgb(219, 219, 219);
-  text-align: center;
+ 
 }
 
 .ldgbox button {
@@ -77,6 +92,13 @@ body {
 }
 
 /* about */
+
+.about{
+  width: 500px;
+  display: flex;
+  margin: 0 auto;
+  color: rgb(219, 219, 219);
+}
 
 .abtimg {
   width: 40px;
@@ -117,9 +139,10 @@ body {
   align-items: center;
   color: rgb(219, 219, 219);
   margin-top: 10px;
-  margin-bottom: 10px;
-  
+  margin-bottom: 50px;
+  margin-top: 40px;
 }
+
 
 .abtcont span {
   font-size: 15px;
@@ -164,9 +187,9 @@ body {
 
 .prjbox {
   box-sizing: border-box;
-  border: solid 1px black;
+  
   height: 200px;
-  width: 300px;
+  width: 350px;
   margin: 13px;
 
   border-radius: 7px;
@@ -190,6 +213,7 @@ body {
   background-color: rgba(219, 219, 219, 0.79);
   border-radius: 10px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .prjlink {
@@ -240,13 +264,11 @@ body {
 
 @media screen and (max-width: 600px) {
 
-  
   .navcont span{
     font-size: 18px;
     padding-top: 5px;
   }
 
- 
   .prjbcont{flex-direction: column;}
   .ldgbox{flex-direction: column;}
 
@@ -259,12 +281,27 @@ body {
     font-weight: 300;
     font-size: 15px;
   }
+
+  .ldgtext h2{
+    width: 300px;
+  }
+ .ldgflex{
+  display: grid;
+  text-align: center;
+ }
   
   .ldgimg {
     width: 160px;
     margin-top: 10px;
+    margin: 20px auto -35px auto;
+    
   }
 
+.about{
+  
+  width: 300px;
+  
+}
     
   .abtimg {
     width: 45px;
@@ -289,11 +326,12 @@ body {
   
   .abtcont {
     display: flex;
+
    
   }
   
   .abtflexa{
-    margin: -30px auto 50px auto;
+    margin: -30px auto 20px auto;
  
   }
   

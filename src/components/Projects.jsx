@@ -23,8 +23,8 @@ const Projects = () => {
             backgroundImage: 'url("/images/news.jpg")',
             backgroundSize: "170%",
             backgroundPosition: "center",
-            backgroundPositionX: "-92px",
-            backgroundPositionY: "-99px",
+            backgroundPositionX: "-122px",
+            backgroundPositionY: "-110px",
           }}
         >
           <div className="prjhid">
@@ -38,14 +38,50 @@ const Projects = () => {
             </a>
           </div>
         </div>
+
+        <div
+          className="prjbox"
+          style={{
+            backgroundImage: 'url("/images/Lokalimg.JPG")',
+            backgroundSize: "170%",
+            backgroundPosition: "center",
+            backgroundPositionX: "-118px",
+            backgroundPositionY: "-1px",
+          }}
+        >
+          <div className="prjhid">
+            <h1>Lokal</h1>
+            <p>
+              Locates nearby activities and locations using Google Places API.
+            </p>
+            <div className="prjlink">
+              <a
+                href="https://github.com/MichiasAsnake/Lokal"
+                target={"_blank"}
+              >
+                <img src="/images/github.svg" />
+              </a>
+              <a
+                href="https://tubular-empanada-06ce57.netlify.app/"
+                target={"_blank"}
+              >
+                <img
+                  src="\images\arrow-up-right-from-square-solid(1).svg"
+                  style={{ width: "30px" }}
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div
           className="prjbox"
           style={{
             backgroundImage: 'url("/images/video.jpg")',
-            backgroundSize: "contain",
-            backgroundPositionX: "-75px",
-            backgroundPositionY: "-80px",
-            backgroundSize: "160%",
+            backgroundSize: "170%",
+            backgroundPosition: "center",
+            backgroundPositionX: "-118px",
+            backgroundPositionY: "-110px",
           }}
         >
           <div className="prjhid">
@@ -76,10 +112,10 @@ const Projects = () => {
           className="prjbox"
           style={{
             backgroundImage: 'url("/images/jobs.JPG")',
-
-            backgroundPositionX: "-45px",
-            backgroundPositionY: "-60px",
-            backgroundSize: "134%",
+            backgroundSize: "170%",
+            backgroundPosition: "center",
+            backgroundPositionX: "-122px",
+            backgroundPositionY: "-135px",
           }}
         >
           <div className="prjhid">
@@ -105,9 +141,10 @@ const Projects = () => {
           className="prjbox"
           style={{
             backgroundImage: 'url("/images/color.jpg")',
-            backgroundPositionX: "-90px",
-            backgroundPositionY: "-90px",
-            backgroundSize: "164%",
+            backgroundSize: "150%",
+            backgroundPosition: "center",
+            backgroundPositionX: "-106px",
+            backgroundPositionY: "-100px",
           }}
         >
           <div className="prjhid">
@@ -136,9 +173,10 @@ const Projects = () => {
           className="prjbox"
           style={{
             backgroundImage: 'url("/images/videoss.jpg")',
-            backgroundPositionX: "-76px",
-            backgroundPositionY: "-83px",
-            backgroundSize: "154%",
+            backgroundSize: "150%",
+            backgroundPosition: "center",
+            backgroundPositionX: "-102px",
+            backgroundPositionY: "-97px",
           }}
         >
           <div className="prjhid">
