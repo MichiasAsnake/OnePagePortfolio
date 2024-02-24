@@ -9,7 +9,7 @@ const Landing = () => {
           <h1>Hi, I'm Michias</h1>
           <h2>A Web and Front End Developer based in Monterey, CA.</h2>
           <button>
-            <a href="\images\Michias Asnake Resume.pdf" download>
+            <a href="\images\Michias Asnake Resume (2) (1).pdf" download>
               <p>Download Resume</p>
             </a>
           </button>
