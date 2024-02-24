@@ -7,7 +7,7 @@ const Landing = () => {
         <div className="ldgimg"></div>
         <div className="ldgtext">
           <h1>Hi, I'm Michias</h1>
-          <h2>A Web and Front End Developer from Minneapolis, MN.</h2>
+          <h2>A Web and Front End Developer based in Monterey, CA.</h2>
           <button>
             <a href="\images\Michias Asnake Resume.pdf" download>
               <p>Download Resume</p>
