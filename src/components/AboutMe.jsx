@@ -14,10 +14,7 @@ const AboutMe = () => {
         About Me
       </div>
       <div className="about">
-        I enjoy creating innovative solutions for web and software applications,
-        constantly seeking out new and exciting technologies to incorporate into
-        my projects. I am dedicated to continuous learning and growth,
-        constantly striving to improve my skills and deliver the best possible
+         I enjoy creating innovative solutions across web, design, and software applications, always seeking out new and exciting technologies to bring into my work. As both a designer and developer, I’m dedicated to continuous learning and growth—constantly striving to sharpen my skills and deliver the best possible results.
         work.
       </div>
     </div>
